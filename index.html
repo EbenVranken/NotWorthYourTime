@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Hello there!-->
+<!--I hope you have a nice day!-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+
+    <title>bit.jpg</title>
+</head>
+<body onload="asignColors()">
+    <div class="container">
+        <h1 onmouseover="audio(this);">64bits</h1>
+        <h1 onmouseover="audio(this);">32bits</h1>
+        <h1 onmouseover="audio(this);">16bits</h1>
+        <h1 onmouseover="audio(this);">8bits</h1>
+        <h1 onmouseover="audio(this);">4bits</h1>
+        <h1 onmouseover="audio(this);">1bit</h1>
+        <h1 onmouseover="audio(this);">½bit</h1>
+        <h1 onmouseover="audio(this);">¼bit</h1>
+        <h1 onmouseover="audio(this);">⍙⏁⎎⟟⌇⊑⏃⌿⌿⟒⋏⟟⋏☌</h1>
+
+        <audio id="audioSource" src="audio/test.mp4"></audio>
+        <video autoplay muted id="background" onended="end()">
+            <source src="audio/test.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
